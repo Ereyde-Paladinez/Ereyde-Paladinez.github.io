@@ -19,6 +19,11 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+figure#banner{
+background-image: url(../img/LOGO.jpg);	
+}
+
+
 h1{
 font-family: 'Shadows Into Light', cursive;
 color: white;
