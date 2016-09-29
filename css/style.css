@@ -14,50 +14,50 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
+background: #006680;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-figure#banner{
-background-image: url(../img/LOGO.jpg);	
-}
-
 
 h1{
-font-family: 'Shadows Into Light', cursive;
-color: white;
+font-family: tahoma, cursive;
+color: black;
 margin-left: 10px;
-font-size: 60px;
-text-align: center; 
+font-size: 40px;
+text-align: right;
+margin-top: 2px;
+margin-bottom: 2px;
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
-color: white;
+font-family: arial, cursive;
+color: black;
 margin-left: 10px;
 font-size: 20px;
-text-align: left; 
+text-align: right
 }
 
 h3{
-font-family: 'Shadows Into Light', cursive;;
+font-family: arial, cursive;;
 color: white;
-font-size: 30px;
+font-size: 15px;
 text-align: center; 
 }
 
 
 header{
 	width: 1000px;
-	height: 120 px;
+	height: 168px;
 	background: rgba(255, 255, 255, 10,70);
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: #f2880d;
 border-radius: 10px;
 
 }
@@ -70,7 +70,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: #fff;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
@@ -78,28 +78,29 @@ li{
 }
 
 section{
-	width: 700px;
-	background: gray;
+	width: 695px;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
+	border: 1px solid #fff;
 }
 aside{
-
+	
+	border: 1px solid #fff;
 	width: 280px;
-	background: white;
 	height: 600px;
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
+
 }
 
 footer{
 width: 1000px;
-height: 70px;
-background: maroon;
+height: 50px;
+background: #f2880d;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
@@ -123,10 +124,10 @@ p{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
-.menu:active{color: white; text-decoration: none;}
+.menu:link{color: #006680; text-decoration: none; font-weight: bold;}
+.menu:visited{color:#006680; text-decoration: none; font-weight: bold;}
+.menu:hover{color:#006680; text-decoration: none; text-shadow: 0 0 13px white;font-weight: bold;}
+.menu:active{color:#006680; text-decoration: none; font-weight: bold;}
 
 /*SEUDO CLASES*/
 
